@@ -1,7 +1,16 @@
 body {
   margin: 10px;
 }
-
-p {
+a[href^="https"][href*="google"][href$=".com"] {
   color: orange;
+}
+#title {
+  color: black;
+  background-color: beige;
+  font-weight: bold;
+}
+
+article.product {
+  font-size: xx-large;
+  color: brown;
 }
