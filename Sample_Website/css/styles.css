@@ -2,14 +2,25 @@ body {
   margin: 10px;
 }
 
-#products ~ p {
-  color: orange;
+article p :first-of-type {
+  font-size: 140%;
+  font-style: italic;
 }
 
-#products + p {
-  color: blue;
+article :last-child {
+  font-weight: bold;
 }
 
-#products > p {
-  color: gold;
+ul li:nth-child(odd) {
+  color: deeppink;
+}
+
+a:visited,
+a:link {
+  color: hotpink;
+}
+
+a:hover,
+a:focus {
+  color: greenyellow;
 }
