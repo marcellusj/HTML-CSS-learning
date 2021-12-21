@@ -2,22 +2,12 @@ body {
   margin: 10px;
 }
 
-h1 {
+p {
   color: dodgerblue;
+  border: 1px solid black;
 }
 
-.highlight {
-  color: deeppink;
-}
-
-#products {
-  color: green;
-}
-
-h1#products {
-  color: dodgerblue;
-}
-
-.featured#products {
-  color: aqua;
+strong {
+  color: initial;
+  border: inherit;
 }
