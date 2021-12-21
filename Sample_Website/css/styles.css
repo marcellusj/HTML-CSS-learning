@@ -9,7 +9,12 @@ body {
 }
 
 .box2 {
-  width: 600px;
-  height: 200px;
-  background: radial-gradient(circle at top left, white, yellow);
+  width: 1000px;
+  height: 250px;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    37deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
 }
