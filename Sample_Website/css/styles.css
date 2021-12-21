@@ -2,25 +2,20 @@ body {
   margin: 10px;
 }
 
-article p :first-of-type {
+p::first-letter {
   font-size: 140%;
-  font-style: italic;
-}
-
-article :last-child {
   font-weight: bold;
 }
 
-ul li:nth-child(odd) {
-  color: deeppink;
+p::first-line {
+  font-weight: bold;
 }
 
-a:visited,
-a:link {
-  color: hotpink;
+::selection {
+  background-color: pink;
 }
 
-a:hover,
-a:focus {
-  color: greenyellow;
+p::after {
+  content: "...";
+  display: block;
 }
