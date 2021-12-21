@@ -5,11 +5,11 @@ body {
 .box {
   width: 200px;
   height: 200px;
-  background-color: hsla(217, 90%, 61%, 0.5);
+  background: linear-gradient(45deg, dodgerblue, yellow, tomato);
 }
 
 .box2 {
-  width: 200px;
+  width: 600px;
   height: 200px;
-  background-color: rgb(113, 231, 235);
+  background: radial-gradient(circle at top left, white, yellow);
 }
