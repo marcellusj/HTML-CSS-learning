@@ -2,12 +2,14 @@ body {
   margin: 10px;
 }
 
-p {
-  color: dodgerblue;
-  border: 1px solid black;
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: hsla(217, 90%, 61%, 0.5);
 }
 
-strong {
-  color: initial;
-  border: inherit;
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(113, 231, 235);
 }
