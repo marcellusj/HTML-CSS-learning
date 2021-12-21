@@ -2,20 +2,22 @@ body {
   margin: 10px;
 }
 
-p::first-letter {
-  font-size: 140%;
-  font-weight: bold;
+h1 {
+  color: dodgerblue;
 }
 
-p::first-line {
-  font-weight: bold;
+.highlight {
+  color: deeppink;
 }
 
-::selection {
-  background-color: pink;
+#products {
+  color: green;
 }
 
-p::after {
-  content: "...";
-  display: block;
+h1#products {
+  color: dodgerblue;
+}
+
+.featured#products {
+  color: aqua;
 }
