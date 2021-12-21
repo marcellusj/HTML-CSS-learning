@@ -5,14 +5,11 @@ body {
 .box {
   width: 200px;
   height: 200px;
-  background: dodgerblue;
-  border: 10px dashed royalblue;
-  border-width: 10px 20px; /* trbl */
-  border-radius: 100%;
+  background: gold;
+  box-shadow: 0 0 30px grey;
 }
 
-.box2 {
-  width: 1000px;
-  height: 250px;
-  background: dodgerblue;
+h1 {
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
